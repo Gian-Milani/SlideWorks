@@ -1,0 +1,140 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+.header-desktop {
+
+  display: flex;
+  align-items: center;
+  padding: 2% 8%;
+
+  border-bottom: 1px solid #DDD;
+}
+
+.header-desktop > img{
+  width: 10%;
+}
+
+.header-menu {
+  margin-left: 20%;
+}
+.header-menu ul{
+  display: flex;
+}
+
+.header-menu ul li{
+  list-style: none;
+  margin: 0 8%;
+}
+
+.header-menu ul li:hover{
+  cursor: pointer;
+}
+
+.main {
+  width: 80%;
+  margin: 5% 10%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1% 2.5%;
+}
+
+.main .book{
+  width: 100%;
+  
+  border-radius: 8%;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+
+  padding: 5%;
+}
+
+.main .book .container-image{
+  text-align: center;
+  margin: auto;
+}
+
+.main .book .container-image img{
+  width: 100%;
+  max-height: 300px;
+
+
+  border-radius: 6px;
+}
+
+.main .book .name {
+  margin: 2% 0;
+  font-weight: 700;
+}
+
+.main .book .author{
+  margin: 2% 0;
+}
+
+.main .book .description {
+  text-align: justify;
+}
+
+.main .book .adicional-informations {
+  margin: 2% 0;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  color: #2264D1;
+  font-weight: 700;
+}
+
+.main .book .adicional-informations .genre{
+  text-align: center;
+  border: 1px solid #9DC2FF;
+  
+  padding: 2%;
+  border-radius: 6px;
+}
+
+.footer{
+  margin-top: 6%;
+  background-color: #1E2833;
+  height: 40vh;
+  padding: 1% 15%;
+  color: white;
+}
+
+.footer .container-img{
+  width: 100%;
+  padding: 4% 0;
+  border-bottom: 1px solid #ccc
+}
+
+.footer .bottom-footer{
+  display: flex;
+}
+
+.footer .informations {
+  width: 50%;
+  margin-top: 5%;
+  
+}
+
+.footer .informations span{
+  margin-right: 8%;
+}
+
+.footer .social-midias{
+  width: 50%;
+  text-align: right;
+  margin-top: 5%;
+}
+
+.footer .social-midias img{
+  margin-left: 8%;
+}
+
+.footer .social-midias img:hover{
+  cursor: pointer;
+}
